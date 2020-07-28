@@ -28,14 +28,14 @@ body {
 .box {
     padding: 20px;
     /* border-radius: 10px; */
-    background-color: #ddd;
+    background-color: #f4ecf7;
 }
 
 /* Area colouring... */
 
 /* logo, banner and footer background are the same */
 .logo, .banner, .footer {
-    background-color: #888;  /* dark grey */
+    background-color: #7d3c98;  /* dark grey */
 }
 
 /* Set font on dark areas to white */
@@ -58,8 +58,8 @@ body {
 
 .main {
     grid-area: main;
-    background-color: #EEE;  /* very pale grey */
-    border: solid 1px #CCC;
+    background-color: #f4ecf7;  /* very pale grey */
+    border: solid 1px #470984;
 }
 
 

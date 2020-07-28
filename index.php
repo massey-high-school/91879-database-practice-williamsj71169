@@ -35,7 +35,7 @@
             </div>    <!-- / logo -->
         </a>
             
-            <h1>Website Name</h1>
+            <h1>Books</h1>
         </div>    <!-- / banner -->
         
         
@@ -58,7 +58,7 @@
         
 
         <div class="box footer">
-            CC yourname 20XX
+            CC Jessika Williams 2020
         </div>    <!-- / footer -->
     
     </div>  <!-- / wrapper  -->
