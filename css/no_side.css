@@ -27,9 +27,8 @@ body {
 
 .box {
     padding: 20px;
-    /* border-radius: 10px; */
-    background-color: #f4ecf7;
-}
+    border-radius: 10px;
+    }
 
 /* Area colouring... */
 
@@ -53,6 +52,7 @@ body {
 
 .banner {
     grid-area: banner;
+    background-color: #000  /* black? */
 }
 
 
@@ -73,6 +73,11 @@ body {
 h1, h2, h3, h4 {
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* Side links */
+a.side{font-weight: bold; text-decoration: none;}
+a.side:link,  a.side:visited {color: #000;} /* ? */
+a,side:hover {color: #7d3c98; ;} /* ? */
 
 
 /* links in page */
