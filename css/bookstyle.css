@@ -10,12 +10,12 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns:250px 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-        "banner"
-        "main"
-        "footer";
+        "banner banner"
+        "side main"
+        "footer footer";
         grid-gap: 4px;
     
 }
@@ -53,6 +53,11 @@ body {
 .banner {
     grid-area: banner;
     background-color: #7d3c98  /* purp? */
+}
+
+.side {
+    grid-area: side;
+    background-color: #4a235a;  /* dark purp? */
 }
 
 
@@ -110,23 +115,4 @@ a:hover{color: #000;}    /* Black*/
     color: #7d3c98; /* purple */
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
