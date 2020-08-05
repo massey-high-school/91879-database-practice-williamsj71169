@@ -2,6 +2,24 @@
 
 <html lang="en">
 
+<?php
+    
+    session_start();
+    include("config.php")
+        
+    // Conect to database
+        
+    $dbconnect=mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+    
+    if (mysqli_connect_errno())
+        
+    {
+        echo "Connection failed:".mysqli_connect_error();
+        exit;
+    }
+        
+?>
+    
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Book Review Database">
@@ -33,7 +51,7 @@
         
         <div class="box side">
         
-        <h2>Search | <a class="side" herf="showall.php">Show All</a></h2>
+        <h2>Search | <a class="side" herf="show_all.php">Show All</a></h2>
  
         <i>Type part of the title / author name if desired</i>
             
