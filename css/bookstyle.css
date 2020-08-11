@@ -125,7 +125,11 @@ a:hover{color: #000;}    /* Black*/
         
 }
 
+/* form formatting */
 
+.search {
+    width: 200px;
+}
 
 
 
