@@ -2,14 +2,13 @@
 
 
 // if find button pushed...
-if(isset($_POST['find_author']))
+if(isset($_POST['find_genre']))
     
 {
     
-$author = $_POST['author'];
+$genre = $_POST['genre'];
 
-//$showall_sql="SELECT * FROM `91879_book_reviews` WHERE Author` LIKE '%$author%' LIMIT 0 , 30";
-$showall_sql = "SELECT * FROM `91879_book_reviews` WHERE `Author` LIKE '%ada%'";
+$showall_sql="SELECT * FROM `91879_book_reviews` WHERE `Genre` LIKE '%$genre%' LIMIT 0 , 30";
 $showall_query=mysqli_query($dbconnect, $showall_sql);
 $showall_rs=mysqli_fetch_assoc($showall_query);
 $count=mysqli_num_rows($showall_query);
@@ -19,7 +18,7 @@ $count=mysqli_num_rows($showall_query);
         
 <div class="box main">
             
-    <h2>All Items</h2>
+    <h2>Genre Search</h2>
     
     <?php
     
@@ -92,7 +91,9 @@ $count=mysqli_num_rows($showall_query);
         
     } // end else
         
-} // end of button pushed if
+    // if there are some, display them
+    
+    } // end isset
         
     ?>
 

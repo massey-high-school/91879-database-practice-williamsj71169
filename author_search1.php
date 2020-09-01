@@ -19,7 +19,7 @@ $count=mysqli_num_rows($showall_query);
         
 <div class="box main">
             
-    <h2>All Items</h2>
+    <h2>Author Search</h2>
     
     <?php
     
@@ -51,7 +51,7 @@ $count=mysqli_num_rows($showall_query);
             <!--- Results go here-->
     <div class="results">
         
-        <p>Title: <span class="sub_heading"><?php echo $showall_rs["Title"]; ?></span> </p>
+        <p>author: <span class="sub_heading"><?php echo $showall_rs["author"]; ?></span> </p>
         
         <p>Author: <span class="sub_heading"><?php echo $showall_rs["Author"]; ?></span> </p>
         
@@ -92,7 +92,9 @@ $count=mysqli_num_rows($showall_query);
         
     } // end else
         
-} // end of button pushed if
+    // if there are some, display them
+    
+    } // end isset
         
     ?>
 
