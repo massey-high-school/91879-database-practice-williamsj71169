@@ -30,10 +30,59 @@
     </form>
 
     <!---  END OF author Search-->
+    
+    
+    <!--- START OF genre Search -->
+
+    <form method="post" action="genre_search.php" enctype="multipart/form-data">
+
+        <select name="genre">
+            <option value="" disabled selected>Genre...</option>
+            <option value="Sci Fi">Science Fiction</option>
+            <option value="Non Fiction">Non Fiction</option>
+            <option value="Humour">Humour</option>
+            <option value="Historical Fiction">Historical Fiction</option>
+            
+        </select>
+        
+        <input class="submit" type="submit" name="find_genre" value="Search" />
+
+    </form>
+
+    <!---  END OF genre Search-->
 
     <hr/>
-    Genre Search<br />
-    Rating Search
+    
+    <!---  start of ratings form-->
+    
+    <form method="post" action="rating_search.php" enctype="multipart/form-data">
+        
+        <select class="half width" name="amount">
+            <option value="exactly" selected>Exactly...</option>
+            <option value="more" selected>At least...</option>
+            <option value="less" selected>At most...</option>          
+        </select>
+    
+        <select class="half width" name="stars">
+            <option value=1>&#9733;</option>
+            <option value=2>&#9733;&#9733;</option>
+            <option value=3>&#9733;&#9733;&#9733;</option>
+            <option value=4>&#9733;&#9733;&#9733;&#9733;</option>
+            <option value=5>&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+            
+        </select>
+        
+            <input type="submit" class="submit" name="find_rating" value="Search"/>
+                
+    
+    
+    
+    
+    
+    
+    </form>
+    
+    <!---  end of ratings form-->
 
 
     </div> <!--- / side bar-->
