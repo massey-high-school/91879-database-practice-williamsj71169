@@ -37,7 +37,7 @@ $count=mysqli_num_rows($showall_query);
         
 <div class="box main">
             
-    <h2>All Items</h2>
+    <h2>Rating Search</h2>
     
     <?php
     

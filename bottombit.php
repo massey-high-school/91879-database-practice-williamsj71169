@@ -36,7 +36,7 @@
 
     <form method="post" action="genre_search.php" enctype="multipart/form-data">
 
-        <select name="genre">
+        <select name="genre" required>
             <option value="" disabled selected>Genre...</option>
             <option value="Sci Fi">Science Fiction</option>
             <option value="Non Fiction">Non Fiction</option>
@@ -73,12 +73,6 @@
         </select>
         
             <input type="submit" class="submit" name="find_rating" value="Search"/>
-                
-    
-    
-    
-    
-    
     
     </form>
     
