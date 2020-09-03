@@ -6,6 +6,8 @@ if(isset($_POST['find_genre']))
     
 {
     
+// $genre=test_input(mysqli_real_escape_string($dbconnect,$_POST['genre']));
+
 $genre = $_POST['genre'];
 
 $showall_sql="SELECT * FROM `91879_book_reviews` WHERE `Genre` LIKE '%$genre%' LIMIT 0 , 30";
