@@ -42,7 +42,7 @@ $count=mysqli_num_rows($showall_query);
     
     } // and count 'if'
         
-    // if therer are not any, output an error
+    // if there are not any, output an error
     else{
         
         do{
