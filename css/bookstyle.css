@@ -80,9 +80,9 @@ h1, h2, h3, h4 {
 }
 
 /* Side links */
-a.side{font-weight: bold; text-decoration: none;}
-a.side:link,  a.side:visited {color: #7d3c98;} /* ? */
-a,side:hover {color: #000; ;} /* ? */
+a.side_nav{font-weight: bold; text-decoration: none;}
+a.side_nav:link,  a.side_nav:visited {color: #f3d4ff;} /* ? */
+a.side_nav:hover {color: #000; ;} /* ? */
 
 
 /* links in page */

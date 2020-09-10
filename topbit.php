@@ -51,7 +51,7 @@
             <div class="box logo"  title="Books - Click here to go to the Home Page">
 !--->
             
-            <h1>Books</h1>
+            <h1><a class="side_nav" href="index.php">Home</a> | Books</h1>
         </div>    <!-- / banner -->
         
         

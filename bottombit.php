@@ -1,6 +1,6 @@
 <div class="box side">
         
-    <h2>Search | <a class="side" href="show_all.php">Show All</a></h2>
+    <h2>Search | <a class="side_nav" href="show_all.php">Show All</a></h2>
 
     <i>Type part of the title / author name if desired</i>
 
@@ -18,7 +18,8 @@
 
     <!---  END OF Title Search-->
 
-
+  <hr/>    
+    
     <!--- START OF author Search -->
 
     <form method="post" action="author_search.php" enctype="multipart/form-data">
@@ -31,6 +32,7 @@
 
     <!---  END OF author Search-->
     
+  <hr/>    
     
     <!--- START OF genre Search -->
 
@@ -66,7 +68,9 @@
 
     <!---  END OF genre Search-->
 
-    <hr/>
+  <hr/>    
+    
+  <i>Ratings Search</i>
     
     <!---  start of ratings form-->
     
